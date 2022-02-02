@@ -1,0 +1,141 @@
+ *{
+   background-color: #f2f1f1;
+   font-family: 'Source Serif Pro', serif;
+   box-sizing: inherit;
+ }
+
+ header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  position: fixed;
+  overflow: hidden;
+ }
+
+ body { padding-top: 100px; }
+
+ .nav-link{
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 100%;
+  }
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+}
+
+.nav{
+  font-family: 'Source Serif Pro', serif;
+  color: rgba(117, 117, 117, 1);
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.nav:hover{
+  color: black;
+}
+
+#navbar{
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  top: 0px;
+  background-color: #f2f1f1;
+  height: 19px;
+  padding: 40px 0px;
+  display: flex;
+
+}
+
+  header {
+    position: absolute;
+
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: #f2f1f1;
+  height: 19px;
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+}
+
+.list-in-line li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-in-line{
+  list-style: none;
+  padding-left: 0px;
+}
+
+button {
+  background: transparent;
+  overflow: visible;
+  transition: all .5s ease;
+  color: #175989;
+  border: 3px solid #175989;
+
+  font-family:'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color : transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+}
+button:hover {
+  color: white;
+  background-color: #175989;
+  cursor: pointer;
+}
+
+.sign-in{
+  position: absolute;
+  right: 150px;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 50px;
+
+}
+
+#title{
+  left: 50px;
+  letter-spacing: -0.011em;
+  line-height: 56px;
+  color: rgba(41, 41, 41, 1);
+
+}
+p{
+  left: 50px;
+  font-size: 25px;
+  color: #404040;
+}
+
+#opening-title{
+  position: static;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#author-pic{
+  border-radius: 50px;
+}
+
+#author-section{
+  display: block;
+  position: static;
+  margin-top: -150px;
+  margin-bottom: 0px;
+  float: left;
+  padding: 50px;
+}
