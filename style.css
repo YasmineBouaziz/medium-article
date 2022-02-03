@@ -127,15 +127,13 @@ p{
   margin-right: auto;
 }
 
-#author-pic{
+#author-section{
   border-radius: 50px;
 }
 
-#author-section{
-  display: block;
+.content{
   position: static;
-  margin-top: -150px;
-  margin-bottom: 0px;
-  float: left;
   padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
